@@ -5,8 +5,8 @@ import org.junit.Test;
 public class CarSimpleFactoryTest {
 
     @Test
-    public void simpleFactory(){
-       ICar car = CarSimpleFactory.create("UpCar");
+    public void simpleFactory() throws Exception{
+       ICar car = CarSimpleFactory.create1("upcar");
        car.start();
        car.speed();
     }
