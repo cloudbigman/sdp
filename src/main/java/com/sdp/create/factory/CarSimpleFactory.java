@@ -2,6 +2,7 @@ package com.sdp.create.factory;
 //简单工厂类
 public class CarSimpleFactory {
     //静态方法
+    //不满足OCP
     public static ICar create(String carname){
         if("UpCar".equalsIgnoreCase(carname)){
             return new UpCar();
