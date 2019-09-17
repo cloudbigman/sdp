@@ -6,9 +6,9 @@ public class CarSimpleFactoryTest {
 
     @Test
     public void simpleFactory() throws Exception{
-       ICar car = CarSimpleFactory.create1("upcar");
+       /*ICar car = CarSimpleFactory.create1("upcar");
        car.start();
-       car.speed();
+       car.speed();*/
     }
 
 
